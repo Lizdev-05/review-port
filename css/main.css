@@ -335,7 +335,7 @@ li {
   padding: 10%;
 }
 
-h2{
+.contact-me h2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -344,17 +344,18 @@ h2{
   color: #172b4d;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
 
-input, textarea{
+input,
+textarea {
   background: #fff;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #DBD8D7;
+  border-bottom: 2px solid #dbd8d7;
   box-sizing: border-box;
   padding: 2rem;
   margin: 1rem 0;
@@ -362,16 +363,14 @@ input, textarea{
   font-size: 25px;
 }
 
-::placeholder{
+::placeholder {
   color: #979493;
   opacity: 1;
-  font-family: 'Inter';
   font-weight: 400;
- font-size: 18px;
+  font-size: 18px;
 }
 
-
-input[type="submit"]{
+input[type="submit"] {
   background: #ff6b00;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -392,7 +391,7 @@ input[type="submit"]{
   background: #a04300;
 } */
 
-button{
+button {
   background: #ff6b00;
   color: #fff;
   font-family: "Inter", sans-serif;
