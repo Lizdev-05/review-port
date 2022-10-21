@@ -407,3 +407,7 @@ button {
   cursor: pointer;
   transition: 350ms;
 }
+
+button:hover {
+  background: #a04300;
+}
